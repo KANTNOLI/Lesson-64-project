@@ -128,11 +128,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="main.h" />
-    <ClInclude Include="Rectangle.h" />
+    <ClInclude Include="manager.h" />
+    <ClInclude Include="rectangle.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Rectangle.cpp" />
+    <ClCompile Include="manager.cpp" />
+    <ClCompile Include="rectangle.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

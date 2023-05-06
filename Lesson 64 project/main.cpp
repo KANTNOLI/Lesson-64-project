@@ -1,4 +1,4 @@
-#include "Rectangle.h"
+#include "manager.h"
 
 int main() {
 	Rectangle rect1;

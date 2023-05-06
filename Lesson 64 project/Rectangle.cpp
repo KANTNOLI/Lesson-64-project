@@ -1,5 +1,7 @@
 #include "Rectangle.h"
 
+int Rectangle::count = 0;
+
 void Rectangle::set_a(int a1) {
 	a = a1 > 0 ? a1 : a;
 }
